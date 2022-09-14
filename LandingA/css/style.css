@@ -134,8 +134,8 @@ body {
     overflow: visible;
 }
 .section__title {
-    margin-bottom: 161px;
-    padding: 30px 0 30px 0;
+    margin-bottom: 159px;
+    padding: 33px 0 33px 0;
     font-weight: 600;
     font-size: 45px;
     line-height: 130%;
@@ -193,7 +193,7 @@ body {
 
 /*=== BLOCK SERVICES =====*/
 .section__services {
-    padding: 139px 120px 200px 120px;
+    padding: 0 120px 200px 120px;
 }
 .services__group {
     display: flex;
@@ -269,19 +269,22 @@ body {
     padding: 0 120px 156px 120px;
     height: 1000px;
 }
-.clients__slide-wrapper {}
+.clients__slide-wrapper {
+    height: 600px;
+}
 .slide-wrapper__card {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
     border: 1px solid #131313;
     width: 533px;
-    height: 450px;
+    height: 330px;
     box-sizing: border-box;
     margin: 20px;
     padding: 53px 57px;
-    background: /*#131313*/ #FFFFFF;
+    background: #131313;
 }
 .card__photo {
     margin-bottom: 15px;
@@ -296,7 +299,7 @@ body {
     text-align: center;
     letter-spacing: 0.01em;
     text-transform: uppercase;
-    color: #111111;
+    color: #FFFFFF;
 }
 .card__profes {
     margin-bottom: 15px;
@@ -305,7 +308,7 @@ body {
     line-height: 17px;
     text-align: center;
     text-transform: uppercase;
-    color: #111111;
+    color: #FFFFFF;
 }
 .card__descript {
     font-weight: 400;
@@ -313,7 +316,7 @@ body {
     line-height: 130%;
     text-align: center;
     letter-spacing: 0.01em;
-    color: #111111;
+    color: #FFFFFF;
 }
 .slide-wrapper__dots {}
 
@@ -331,16 +334,27 @@ body {
 /* Лента слайдов */
 .slick-track{
     display: flex;
+    align-items: center;
     height: 500px;
+    transition: all 1s ease 0s;
 }
 /* Слайд */
-.slick-slide{}
+.slick-slide{
+    margin: 0 20px;
+    padding: 10px 25px;
+    height: 330px;
+    opacity: 0.4;
+}
 /* Слайд активный (показывается) */
 .slick-slide.slick-active{}
 /* Слайд основной */
 .slick-slide.slick-current{}
 /* Слайд по центру */
-.slick-slide.slick-center{}
+.slick-slide.slick-center{
+    height: 400px;
+    align-items: center;
+    opacity: 1;
+}
 /* Клонированный слайд */
 .slick-slide.slick-cloned{}
 /* Стрелка */
@@ -358,24 +372,28 @@ body {
     align-items: center;
     justify-content: center;
     column-gap: 20px;
-    /*width: 10px;
-    height: 10px;
-    color: #FFFFFF;*/
+    line-height: 0.7;
 }
 .clients__slide-wrapper .slick-dots li{
     list-style: none;
+    padding: 0;
+    text-align: center;
 }
 /* Активная точка */
 .clients__slide-wrapper .slick-dots li.slick-active{
     width: 20px;
     height: 20px;
     border: 1px solid #FFFFFF;
+    align-self: center;
     border-radius: 50%;
     filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.5)) drop-shadow(0px 0px 20px #FFFFFF);
 }
 /* Элемент точки */
 .clients__slide-wrapper .slick-dots li button{
+    padding: 0;
     font-size: 0;
+    line-height: 0;
+    text-align: center;
     width: 10px;
     height: 10px;
     background-color: #FFFFFF;
