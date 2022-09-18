@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main-wrapper {
+    max-width: 1920px;
+    max-height: 1080px;
+    padding: 50px 100px 36px 100px;
+    background-color: #0F0F0F;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+/*NAVIGATION*/
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 121px;
+}
+.navigation__logo-name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-name__logotype {}
+.logotype__img {}
+.logo-name__name {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+    background: linear-gradient(90.06deg, #BC9260 -7.59%, #EFD1A0 59.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.navigation__nav {
+    margin-right: 545px;
+}
+.nav__link {
+    margin-right: 100px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*MAIN BLOCK*/
+.main-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*LEFT SIDE*/
+.chessboard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 35px;
+}
+.chessboard__field {
+    margin-bottom: 19px;
+}
+.chessboard__btn {
+    align-self: center;
+    border-radius: 9px;
+    width: 230px;
+    height: 57px;
+    background-color: transparent;
+    background-image: url(../img/backgr/bg-btn-solution.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chessboard__btn:hover {
+    box-shadow: 0 0 9px #FFE5B4;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+/*LEFT SIDE*/
+
+/*RIGHT SIDE*/
+.task__slider {
+    position: relative;
+    max-width: 694px;
+    max-height: 635px;
+}
+.slider__items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+}
+.items__title {
+    margin: 0 0 50px 0;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    background: linear-gradient(90.06deg, #BC9260 -7.59%, #EFD1A0 59.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.items__type-task {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.type-task__title {
+    margin: 0 15px 0 0;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+}
+.type-task__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 204%;
+}
+.content__description {
+    margin-bottom: 54px;
+}
+.description__title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+}
+.description__text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+}
+.content__solution {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: /*122px*/55px;
+}
+.solution__title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+}
+/*.solution__text {}*/
+.text__number {
+    margin-right: 3px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+}
+.text__choice {
+    text-decoration: none;
+}
+.text__choice:hover {
+    text-shadow: 0 4px 4px gray;
+    transition-duration: 0.2s;
+}
+/*.text__choice:visited {
+    color: #B5373F;
+}*/
+.text__combination1 {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #47D1AA;
+}
+.text__combination2 {
+    margin-right: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    color: #B5B5B5;
+}
+.combination1-color {
+    color: #B5373F;
+}
+.content__retry {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.retry__btn {
+    margin-right: 25px;
+    border: none;
+    background-color: #0F0F0F;
+}
+.btn__img {
+    fill: #B5373F
+}
+.btn__img:hover {
+    cursor: pointer;
+    fill: #FF0000;
+    transition-duration: 0.2s;
+}
+.retry__message {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+}
+
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.task__slider .slick-list {
+    overflow: hidden;
+    min-width: 0;
+    margin: 0 -6px;
+}
+/* Лента слайдов */
+.task__slider .slick-track{
+    display: flex;
+    transition: all 1s ease 0s;
+}
+/* Слайд */
+.task__slider .slick-slide{
+    width: 699px;
+    margin: 0 6px;
+    padding: 0;
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.task__slider .slick-arrow{
+    position: absolute;
+    bottom: -135px;
+    font-size: 0;
+    width: 15px;
+    height: 40px;
+    border: none;
+}
+/* Стрелка влево */
+.task__slider .slick-arrow.slick-prev{
+    left: 0;
+    z-index: 1;
+    background: url(../img/icons/back-arrow.svg) 0 0 / 100% no-repeat;
+}
+/* Стрелка вправо */
+.task__slider .slick-arrow.slick-next{
+    left: 599px;
+    z-index: 1;
+    background: url(../img/icons/forward-arrow.svg) 0 0 / 100% no-repeat;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.task__slider .slick-dots{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 13px;
+    column-gap: 13px;
+    align-items: flex-start;
+    justify-content: left;
+    margin-right: 78px;
+    padding: 0 46px 0 55px;
+}
+.task__slider .slick-dots li{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+/* Активная точка */
+.task__slider .slick-dots li.slick-active button {
+    background-color: red;
+}
+/* Элемент точки */
+.task__slider .slick-dots li button {
+    width: 39px;
+    height: 39px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/*RIGHT SIDE*/
+
