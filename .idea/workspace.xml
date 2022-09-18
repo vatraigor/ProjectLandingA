@@ -1,66 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70cc5e5b-eace-44e3-8274-50df3ab4b1f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProjectLandingA.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura medium bt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/Futura Bold Italic font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/Futura Bold font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/Futura Book Italic font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/Futura Book font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/Futura Extra Black font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/Futura Heavy Italic font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/Futura Heavy font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/Futura Light Italic font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/Futura Light font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/Futura Medium Italic font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/Futura XBlk BT.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/Futura-CondensedLight.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/futur.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/futura light bt.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/futura medium bt.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/futura medium condensed bt.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/tt0205m_.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/unicode.futurab.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/fonts/futura/unicode.futurabb.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/Icon/Cube.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/Icon/Hexagon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/Icon/People.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/Icon/Square.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/LOGOTYPESS.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/clients/cube-205.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/clients/cube-206.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/clients/cube-207.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/guarantees/cubes1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/guarantees/cubes2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/header/Background-cube-header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/header/background-perehod-header.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/services/blockchain-development.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/services/data-sciens.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/services/digital-transformation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/services/mobile-development.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/services/product-management.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/services/software-support.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/services/software-testing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/services/web-development.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backgr/tuch-us/bg-tuch-us.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backing/stamp-simply.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backing/stamp-simply2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backing/stamp-simply21.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backing/stamp-simply212.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/backing/stamp-simply2121.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/clients-photo/Adrian Frost.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/clients-photo/Dillon Humler.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/img/clients-photo/Erika Torres.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/js/jquery-3.6.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingA/js/slick.min.js" beforeDir="false" />
-    </list>
+    <list default="true" id="70cc5e5b-eace-44e3-8274-50df3ab4b1f8" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,12 +14,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EsSPhVq6MVZbSLpAc81xQyknxR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -101,11 +46,42 @@
       <option name="presentableId" value="Default" />
       <updated>1663382776232</updated>
       <workItem from="1663382777470" duration="28935000" />
-      <workItem from="1663493773080" duration="25985000" />
+      <workItem from="1663493773080" duration="26508000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1663526482666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663526482666</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1663526616335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663526616335</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
