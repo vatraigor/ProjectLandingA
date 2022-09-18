@@ -189,9 +189,10 @@ body {
 }
 .content__retry {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
     align-items: center;
+    padding-left: 107px;
 }
 .retry__btn {
     margin-right: 25px;
